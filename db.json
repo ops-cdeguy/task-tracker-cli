@@ -1,7 +1,23 @@
-{
-  "name": "John",
-  "age": 30,
-  "isStudent": false,
-  "hobbies": ["reading", "sports"],
-  "address": { "city": "New York", "zip": "10001" }
-}
+[
+  {
+    "id": 0,
+    "description": "Grocery",
+    "status": "todo",
+    "createdAt": "blyat",
+    "updatedAt": "blyat"
+  },
+  {
+    "id": 1,
+    "description": "Not Grocery",
+    "status": "in-progress",
+    "createdAt": "unblyat",
+    "updatedAt": "unblyat"
+  },
+  {
+    "id": 2,
+    "description": "Surely Not Grocery",
+    "status": "todo",
+    "createdAt": "2026-07-26T18:09:45.227906+05:30",
+    "updatedAt": "2026-07-26T18:09:45.227922+05:30"
+  }
+]

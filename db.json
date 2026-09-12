@@ -1,23 +1,31 @@
+
 [
   {
     "id": 0,
-    "description": "Grocery",
-    "status": "todo",
-    "createdAt": "blyat",
-    "updatedAt": "blyat"
+    "title": "Set up project directory",
+    "description": "Create my_module subfolder and initialize __init__.py",
+    "status": "completed",
+    "priority": "high"
   },
   {
     "id": 1,
-    "description": "Not Grocery",
-    "status": "in-progress",
-    "createdAt": "unblyat",
-    "updatedAt": "unblyat"
+    "title": "Implement CLI parser",
+    "description": "Use argparse to handle task creation and listing commands",
+    "status": "in_progress",
+    "priority": "high"
   },
   {
     "id": 2,
-    "description": "Surely Not Grocery",
-    "status": "todo",
-    "createdAt": "2026-07-26T18:09:45.227906+05:30",
-    "updatedAt": "2026-07-26T18:09:45.227922+05:30"
+    "title": "Configure Ruff in Neovim",
+    "description": "Ensure auto-formatting and __all__ sorting rule (RUF022) works on save",
+    "status": "in_progress",
+    "priority": "medium"
+  },
+  {
+    "id": 3,
+    "title": "Add data validation",
+    "description": "Restrict task status options to pending, in_progress, and completed",
+    "status": "pending",
+    "priority": "low"
   }
 ]

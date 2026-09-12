@@ -10,8 +10,8 @@ def add_new(tasks: list, description: str):
         "id": next_id,
         "description": description,
         "status": "todo",
-        "createdAt": datetime.now(ZoneInfo("Asia/Kolkata")).isoformat(),
-        "updatedAt": datetime.now(ZoneInfo("Asia/Kolkata")).isoformat(),
+        "createdAt": datetime.now(ZoneInfo("Asia/Singapore")).isoformat(),
+        "updatedAt": datetime.now(ZoneInfo("Asia/Singapore")).isoformat(),
     }
     tasks.append(new_task)
     return tasks
